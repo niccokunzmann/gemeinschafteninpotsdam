@@ -49,26 +49,6 @@
           Um solche und andere Fragen zu klären, <a href="http://eemaill.org/A0f2DKLjEUMLAkzW6me2ePA9jXYbIci">trage dich in diesen Mailverteiler ein</a>.
         </p>
       </div>
-      <div class="section">
-        <a class="anchor" name="Mitglieder"></a>
-        <a href="#Mitglieder">
-          <div class="heading">
-            Wer steht dahinter?
-          </div>
-        </a>
-        <div class="list">
-        {% for member in site.data.members %}
-          <a href="{{ member.link|e }}">
-            <div class="member">
-              <img class="image" src="images/members/{% if member.image %}{{ member.image|e }}{% else %}{{ site.data.configuration["default-member-picture"] }}{% endif %}"  />
-              <div class="name">
-                {{ member.name|e }}
-              </div>
-            </div>
-          </a>
-        {% endfor %}
-        </div>
-      </div>
     </div>
     <div class="footer">
       <!--<div class="logo">
