@@ -1,4 +1,4 @@
-# kommuneninpotsdam
+# gemeinschafteninpotsdam
 
 Dies ist die Seite [gemeinschafteninpotsdam.quelltext.eu](http://gemeinschafteninpotsdam.quelltext.eu/).
 
