@@ -3,7 +3,7 @@
 /* Color Theme: http://www.colorschemer.com/schemes/viewscheme.php?id=10697 */
 
 .header {
-  position: fixed; 
+  position: absolute; 
   right: 0px;
   left: 0px;
   top: 0px;
@@ -130,19 +130,23 @@ body {
   margin-bottom: 10px;
 }
 
-.map {
-  width: 100%;
-}
 
 .footer {
   text-align: center;
+  box-shadow: 0px 1px 5px #989898;
+  padding: 0.5em;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+
 }
 
-.footer .logo .image {
-  height: 60px;
+.footer .license img {
+  height: 1em;
+  vertical-align: middle;
 }
 
 a {
-   color: rgb(125, 152, 65);
+  color: rgb(125, 152, 65);
   text-decoration: none; /* no underline */
 }
